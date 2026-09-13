@@ -1,0 +1,137 @@
+paso 1 iniciar git   ---->>> git init
+paso 2 git config user.name  xxxxx
+paso 3 git config user.email   xxxxxx
+paso 4 git checkout -b xxxxxx
+paso 5 git add .
+paso 6 git commit -m "XXXXXXXXXX" 
+paso 7 git branch -M "XXXXXX"   ---> este crea rama en la nube
+paso 8 git remote add origin https://github.com/xxxxxxxxseguido usuario repositorio y el repositorio
+paso 9 git push -u origin xxxxxxx
+👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂modificar👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂
+paso 1 iniciar git   ---->>> git init
+paso 2 git add .
+paso 3 git commit -m "XXXXXXXXXX"
+paso 4 git push -u origin xxxxxxx(esta es la rama remota)
+
+👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂configurar👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂
+----Esto es en el proyecto con el ide visual code solo para 
+----crear usuario local en cada proyecto, muy util si en el 
+----equipo no es propio. 
+**********************************************************
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+git config user.name "Tu Nombre"
+git config user.email "tucorreo@ejemplo.com"
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+***********************************************************
+---------Esta es para cuando el equipo es propio
+*********************************************************
+👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍
+git config --global user.name "Tu Nombre"
+git config --global user.email "tucorreo@ejemplo.com"
+👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍
+*********************************************************
+👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂verificar👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂👂
+---------------------------------------------------------
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+----------verificar si quedo bien configurado local
+git config user.name
+git config user.email
+
+git config --get user.name   verifica el usuario 
+git config --local --list mostrar la lista de usuario
+git config user.name "usuarionuevo" cambia nuevo usuario
+
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+----------------------------------------------------------
+
+-----------------------------------------------------------
+👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍
+-------Esta verifica si guardo la configuracion global
+--------git config --global user.name
+git config --global user.email
+👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍👍
+*********************************************************
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾
+git config --list --local  // con esta se muestra el usuario y el correo configurado local
+👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾👍🏾
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*****************************************************************************************
+🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦
+---------------crear ua rama local
+git branch nombre-de-tu-rama    //crea la rama
+git checkout nombre-de-tu-rama   // para cambiarte a la rama creada
+******************************************************************
+git checkout -b nombre-de-tu-rama //este hace los dos pasos de una
+*******************************************************************
+
+git branch  // verificar que ramas estas   La rama actual aparecerá con un * delante.
+🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦🥦
+*****************************************************************************************
+
+🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+🚀---------------------- subir repositorio-----------------------------------------------------🚀
+🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀�
+
+🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊
+git clone https://github.com/tu-usuario/tu-repo.git  para clonar el repositorio🚊
+🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊🚊
+
+✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️️
+✈️ ---------------para comensar a subir   ✈️
+✈️git add .                               ✈️
+✈️git commit -m "Tu mensaje de commit"    ✈️
+✈️                                        ✈️
+✈️git push -u origin nombre-de-la-rama       ✈️
+✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️✈️
+git pull origin nombre-de-la-rama  /// actualizar la rama
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+git init
+git remote add origin https://github.com/tu-usuario/tu-repo.git  apunta el repo remoto
+git remote -v  // al ejecutar eto deberia ver asi
+--//origin  https://github.com/tu-usuario/tu-repo.git (fetch)
+---//origin  https://github.com/tu-usuario/tu-repo.git (push)
+
+git add .
+git commit -m "Primer commit"
+
+
+git push -u origin "tu rama"  ///esto ya sube al repositorio
+
+git push -u origin nombre-de-la-rama    teneiendo en cuenta que es la rama local la que va subir
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬
+git push -u origin guillo --force  ------> esto si quieren pasar lo ue esta en local y no coinciden con lo del remoto pero quiere quede el local
+😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬😬
+cuando hay usuarios globales no permite hacer push
+Presiona Win + S (o abre el menú Inicio).
+
+Escribe: Administrador de credenciales o Credential Manager.
+
+Haz clic en Administrador de credenciales (debería decir “Panel de control”).
+
+En la sección "Credenciales genéricas", busca todas las que mencionen:
+
+git:https://github.com
+
+github.com
+
+Cualquier otra que parezca relacionada con Git o GitHub.
+
+Haz clic en cada una y luego en "Quitar" o "Eliminar".
+
+
+https://www.youtube.com/watch?v=bDhhm--nTv4
+
+🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+  git remote remove origin
+  git remote add origin https://github.com/usuario/nuevo-repo.git  // esta para quitar y cambiar 
+
+  git remote set-url origin https://github.com/usuario/nuevo-repo.git  esta para acceder a esta nueva
+
+
+
