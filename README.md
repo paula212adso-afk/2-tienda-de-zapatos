@@ -10,3 +10,9 @@ RF06 — El sistema debe permitir al admin editar y eliminar productos del inven
 Juan
 RF07 — El sistema debe permitir al admin eliminar una cuenta de trabajador.
 RF08 — El sistema debe permitir al admin eliminar una cuenta de cliente.
+
+
+IA: DOCUMENTACION INDIVIDUAL
+caso de uso
+diagrama caso de uso
+diagrama de clase
