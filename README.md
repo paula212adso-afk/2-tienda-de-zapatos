@@ -17,7 +17,9 @@ caso de uso
 diagrama caso de uso
 diagrama de clase
 
-De acuerdo a este requisito funcional Me puedes dar el caso de uso con los siguientes pasos descripción actores precondición secuencia normal post condición alternativas adicional me regalas el código en plan uml el diagrama de caso de uso de este requerimiento
+De acuerdo a este requisito funcional Me puedes dar el caso de uso con los siguientes pasos descripción actores precondición secuencia normal post condición alternativas adicional me regalas el código en plan uml el diagrama de caso de uso de este 
+
+diagrama UML
 @startuml
 left to right direction
 
